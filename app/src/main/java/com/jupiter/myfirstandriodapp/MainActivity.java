@@ -4,10 +4,11 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
+
+import com.jupiter.myfirstandriodapp.fragmentdemo.FragmentDemoActivity;
+import com.jupiter.myfirstandriodapp.launchanotheractivity.LaunchAnotherActivity;
 
 public class MainActivity extends AppCompatActivity {
-    public final static String EXTRA_MESSAGE = "com.jupiter.myfirstandriodapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,11 +16,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void sendMessage(View view) {
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText)findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+    public void launchAnotherActivity(View view) {
+        Intent intent = new Intent(this, LaunchAnotherActivity.class);
+        startActivity(intent);
+    }
+
+    public void fragmentDemon(View view) {
+        Intent intent = new Intent(this, FragmentDemoActivity.class);
         startActivity(intent);
     }
 }
