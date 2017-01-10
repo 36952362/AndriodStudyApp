@@ -2,9 +2,10 @@
     <string name="app_name">MyFirstAndriodApp</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
-    <string name="button_start_another_activity_demo">Start Activity</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="button_fragmentdemo">FragmentDemo</string>
+    <string name="button_start_another_activity_demo">StartActivityDemo</string>
+    <string name="button_fragment_demo">FragmentDemo</string>
+    <string name="button_savingdata_demo">SavingDataDemo</string>
+    <string name="button_savingkeyvaluesets_demo">SavingKeyValueSetsDemo</string>
+    <string name="edit_keyvaluesets">Input one value</string>
+    <string name="button_display">Display</string>
 </resources>

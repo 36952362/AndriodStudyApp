@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.jupiter.myfirstandriodapp.fragmentdemo.FragmentDemoActivity;
 import com.jupiter.myfirstandriodapp.launchanotheractivity.LaunchAnotherActivity;
+import com.jupiter.myfirstandriodapp.savingdata.SavingDataDemoActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,13 +17,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void launchAnotherActivity(View view) {
+    public void onLaunchAnotherActivityDemo(View view) {
         Intent intent = new Intent(this, LaunchAnotherActivity.class);
         startActivity(intent);
     }
 
-    public void fragmentDemon(View view) {
+    public void onFragmentDemo(View view) {
         Intent intent = new Intent(this, FragmentDemoActivity.class);
+        startActivity(intent);
+    }
+
+    public void onSavingDataDemo(View view) {
+        Intent intent = new Intent(this, SavingDataDemoActivity.class);
         startActivity(intent);
     }
 }

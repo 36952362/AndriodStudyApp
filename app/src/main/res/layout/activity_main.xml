@@ -9,12 +9,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_start_another_activity_demo"
-        android:onClick="launchAnotherActivity"/>
+        android:onClick="onLaunchAnotherActivityDemo"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_fragmentdemo"
-        android:onClick="fragmentDemon"/>
+        android:text="@string/button_fragment_demo"
+        android:onClick="onFragmentDemo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_savingdata_demo"
+        android:onClick="onSavingDataDemo"/>
 </LinearLayout>
 
