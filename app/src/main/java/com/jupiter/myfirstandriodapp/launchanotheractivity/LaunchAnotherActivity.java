@@ -9,7 +9,7 @@ import android.widget.EditText;
 import com.jupiter.myfirstandriodapp.R;
 
 public class LaunchAnotherActivity extends AppCompatActivity {
-    public final static String EXTRA_EDIT_MESSAGE = "com.jupiter.myfirstandriodapp.EDIT_MESSAGE";
+    public final static String EXTRA_EDIT_MESSAGE = "com.jupiter.myfirstandriodapp.launchanotheractivity.EDIT_MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

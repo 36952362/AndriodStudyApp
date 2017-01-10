@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jupiter.myfirstandriodapp.fragmentdemo.ArticleFragment">
+    tools:context="com.jupiter.myfirstandriodapp.fragmentdemo.ArticleFragment"
+    android:id="@+id/article_fragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/article"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:padding="16dp"
+        android:textSize="18sp"/>
 
 </FrameLayout>
