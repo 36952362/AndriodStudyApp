@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_saving_key_value_sets"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_saving_on_external_stoarge"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    xmlns:tools="http://schemas.android.com/tools">
-    <EditText
+    tools:context="com.jupiter.myfirstandriodapp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity">
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/edit_keyvaluesets"
-        android:hint="@string/edit_keyvaluesets"/>
-    <Button
+        android:id="@+id/text_storage_status"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_display"
-        android:textAllCaps="false"
-        android:textAlignment="center"
-        android:onClick="onDisplayKeyvaluesets"/>
+        android:id="@+id/text_storage_space"/>
+
 </LinearLayout>

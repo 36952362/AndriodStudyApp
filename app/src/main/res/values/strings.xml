@@ -8,4 +8,17 @@
     <string name="button_savingkeyvaluesets_demo">SavingKeyValueSetsDemo</string>
     <string name="edit_keyvaluesets">Input one value</string>
     <string name="button_display">Display</string>
+    <string name="button_saving_on_file">SavingOnFie</string>
+    <string name="button_saving_on_internal_storage">SavingOnInternalStorage</string>
+    <string name="button_saving_on_internal_file">SaveOnInternalFile</string>
+    <string name="button_Save_On_Cache_File">SaveOnCacheFile</string>
+    <string name="button_saving_on_external_storage">SavingOnExternalStorage</string>
+    <string name="button_saving_in_databases">SavingInDatabases</string>
+    <string name="text_record_name">Record Name:</string>
+    <string name="edit_input_name">Input Name</string>
+    <string name="text_record_age">Record Age:</string>
+    <string name="edit_input_age">Input Age</string>
+    <string name="button_add_record">Add</string>
+    <string name="button_update_record">Update</string>
+    <string name="button_delete_record">Delete</string>
 </resources>

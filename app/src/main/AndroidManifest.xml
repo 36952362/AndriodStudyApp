@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jupiter.myfirstandriodapp">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,9 +21,15 @@
         <activity android:name=".launchanotheractivity.LaunchAnotherActivity" />
         <activity android:name=".fragmentdemo.FragmentDemoActivity" />
         <activity android:name=".savingdata.SavingDataDemoActivity" />
-        <activity android:name=".savingdata.SavingKeyValueSetsActivity"/>
+        <activity android:name=".savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
+        <activity android:name=".savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
+        <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
+        <activity android:name=".savingdata.savingfiles.SavingFileActivity" />
+        <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
+        <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
+        <activity android:name=".savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
+        <activity android:name=".savingdata.savingdatabases.SavingDatabaseActivity" />
+        <activity android:name=".savingdata.savingdatabases.DatabaseDisplayActivity"></activity>
     </application>
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 </manifest>

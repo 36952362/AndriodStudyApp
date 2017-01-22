@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:andriod="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_saving_data_demo"
+    android:id="@+id/activity_saving_on_internal_storage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    tools:context="com.jupiter.myfirstandriodapp.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity">
 
-    <Button
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_savingkeyvaluesets_demo"
-        android:textAllCaps="false"
-        android:textAlignment="center"
-        android:onClick="onSavingKeyValueSets"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_saving_on_file"
-        android:textAllCaps="false"
-        android:textAlignment="center"
-        android:onClick="onSavingOnFile"/>
+        android:id="@+id/edit_saving_on_internal_storage"
+        android:hint="@string/edit_message"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:text="@string/button_saving_in_databases"
-        android:onClick="onSavingInDatabases"/>
+        android:text="@string/button_saving_on_internal_file"
+        android:onClick="onSavingOnInternalFileAndDisplay"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:text="@string/button_Save_On_Cache_File"
+        android:onClick="onSavingOnCacheFileAndDispaly"/>
+
 </LinearLayout>

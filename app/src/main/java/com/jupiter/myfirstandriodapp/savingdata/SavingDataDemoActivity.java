@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.myfirstandriodapp.savingdata.keyvaluesets.SavingKeyValueSetsActivity;
+import com.jupiter.myfirstandriodapp.savingdata.savingdatabases.SavingDatabaseActivity;
+import com.jupiter.myfirstandriodapp.savingdata.savingfiles.SavingFileActivity;
 
 public class SavingDataDemoActivity extends AppCompatActivity {
 
@@ -17,6 +20,16 @@ public class SavingDataDemoActivity extends AppCompatActivity {
 
     public void onSavingKeyValueSets(View view) {
         Intent intent = new Intent(this, SavingKeyValueSetsActivity.class);
+        startActivity(intent);
+    }
+
+    public void onSavingOnFile(View view) {
+        Intent intent = new Intent(this, SavingFileActivity.class);
+        startActivity(intent);
+    }
+
+    public void onSavingInDatabases(View view) {
+        Intent intent = new Intent(this, SavingDatabaseActivity.class);
         startActivity(intent);
     }
 }
