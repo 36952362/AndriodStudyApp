@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_saving_on_internal_storage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context="com.jupiter.myfirstandriodapp.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity">
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edit_saving_on_internal_storage"
         android:hint="@string/edit_message"/>
+    <View
+        android:id="@+id/view_placeholder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/edit_saving_on_internal_storage"
+        android:layout_centerHorizontal="true"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button_save_on_internal_file"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:text="@string/button_saving_on_internal_file"
-        android:onClick="onSavingOnInternalFileAndDisplay"/>
+        android:onClick="onSavingOnInternalFileAndDisplay"
+        android:layout_toLeftOf="@id/view_placeholder"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/edit_saving_on_internal_storage"
+        android:gravity="center"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/button_save_on_cache_file"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:text="@string/button_Save_On_Cache_File"
-        android:onClick="onSavingOnCacheFileAndDispaly"/>
+        android:onClick="onSavingOnCacheFileAndDispaly"
+        android:layout_below="@id/edit_saving_on_internal_storage"
+        android:layout_toRightOf="@id/view_placeholder"
+        android:layout_alignParentRight="true"
+        android:gravity="center"/>
 
-</LinearLayout>
+</RelativeLayout>

@@ -17,8 +17,10 @@ public class DatabaseDisplayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_database_display);
 
+        /*
         Intent intent = getIntent();
         String recordName = intent.getStringExtra(SavingDatabaseActivity.NAME);
+        */
         SQLiteDatabase db = feedReaderDbHelper.getReadableDatabase();
 
         String[] projection = {
@@ -27,11 +29,13 @@ public class DatabaseDisplayActivity extends AppCompatActivity {
                 FeedReaderContract.FeedReaderEntry.COLUMN_NAME_AGE
         };
 
+        /*
         String selection = FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME + " = ?";
-        String[] selectionArgs = {recordName};
-        String sortOrder = FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME + " DESC";
+        String[] selectionArgs = {"*"};
+        */
+        String sortOrder = FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME + " ASC";
 
-        Cursor cursor = db.query(FeedReaderContract.FeedReaderEntry.TABLE_NAME, projection,selection, selectionArgs, null, null, sortOrder);
+        Cursor cursor = db.query(FeedReaderContract.FeedReaderEntry.TABLE_NAME, projection,null, null, null, null, sortOrder);
 
         StringBuilder stringBuilder = new StringBuilder();
         int i = 0;

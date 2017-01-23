@@ -1,51 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_saving_database"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context="com.jupiter.myfirstandriodapp.savingdata.savingdatabases.SavingDatabaseActivity">
 
+    <View
+        android:id="@+id/view_first_center_holder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
     <TextView
+        android:id="@+id/text_record_name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="@string/text_record_name"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_toLeftOf="@id/view_first_center_holder"
+        android:gravity="center" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/edit_input_name"
-        android:id="@+id/edit_input_name"/>
-    <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/edit_input_name"
+        android:layout_toRightOf="@id/view_first_center_holder" />
+
+    <View
+        android:id="@+id/view_second_center_holder"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edit_input_name"/>
+
+    <TextView
+        android:id="@+id/text_record_age"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="right|center_vertical"
         android:text="@string/text_record_age"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:layout_below="@id/text_record_name"
+        android:layout_toLeftOf="@id/view_second_center_holder"/>
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/edit_input_age"
-        android:id="@+id/edit_input_age"/>
+        android:id="@+id/edit_input_age"
+        android:layout_below="@id/edit_input_name"
+        android:layout_toRightOf="@id/view_second_center_holder"/>
+
+    <View
+        android:id="@+id/view_centerholder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/edit_input_age"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button_update_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_update_record"
+        android:onClick="onUpdateInDatabase"
+        android:layout_below="@id/edit_input_age"
+        android:layout_toLeftOf="@id/view_centerholder"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_add_record"
-        android:onClick="onAddInDatabase"/>
+        android:onClick="onAddInDatabase"
+        android:layout_below="@id/edit_input_age"
+        android:layout_toLeftOf="@id/button_update_record"/>
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_update_record"
-        android:onClick="onUpdateInDatabase"/>
-    <Button
+        android:id="@+id/button_delete_record"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_delete_record"
-        android:onClick="onDeleteFromDatabase"/>
+        android:onClick="onDeleteFromDatabase"
+        android:layout_below="@id/edit_input_age"
+        android:layout_toRightOf="@id/view_centerholder"/>
     <Button
+        android:id="@+id/button_query_record"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_display"
-        android:onClick="onDisplay"/>
-
-</LinearLayout>
+        android:onClick="onDisplay"
+        android:layout_below="@id/edit_input_age"
+        android:layout_toRightOf="@id/button_delete_record"/>
+</RelativeLayout>

@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:text="@string/button_start_another_activity_demo"
@@ -14,15 +14,15 @@
         android:onClick="onLaunchAnotherActivityDemo"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="132dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/button_fragment_demo"
         android:textAllCaps="false"
         android:textAlignment="center"
         android:onClick="onFragmentDemo"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_savingdata_demo"
         android:textAllCaps="false"

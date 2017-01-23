@@ -13,9 +13,6 @@ import com.jupiter.myfirstandriodapp.R;
 public class SavingDatabaseActivity extends AppCompatActivity {
     public final static String NAME = "com.jupiter.myfirstandriodapp.savingdata.savingdatabases.NAME";
     private FeedReaderDbHelper feedReaderDbHelper = new FeedReaderDbHelper(this);
-    private static String lastRecordName;
-    private static String lastRecordAge;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,14 +22,14 @@ public class SavingDatabaseActivity extends AppCompatActivity {
 
     public void onAddInDatabase(View view) {
         EditText recordNameEditText = (EditText)findViewById(R.id.edit_input_name);
-        lastRecordName = recordNameEditText.getText().toString();
+        String recordName = recordNameEditText.getText().toString();
         EditText recordAgeEditText = (EditText)findViewById(R.id.edit_input_age);
-        lastRecordAge = recordAgeEditText.getText().toString();
+        String recordAge = recordAgeEditText.getText().toString();
 
         SQLiteDatabase db = feedReaderDbHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME, lastRecordName);
-        values.put(FeedReaderContract.FeedReaderEntry.COLUMN_NAME_AGE, lastRecordAge);
+        values.put(FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME, recordName);
+        values.put(FeedReaderContract.FeedReaderEntry.COLUMN_NAME_AGE, recordAge);
 
         long newRowId = db.insert(FeedReaderContract.FeedReaderEntry.TABLE_NAME, null, values);
     }
@@ -54,10 +51,10 @@ public class SavingDatabaseActivity extends AppCompatActivity {
         values.put(FeedReaderContract.FeedReaderEntry.COLUMN_NAME_AGE, localRecordAge);
 
         String selection = FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME + " LIKE ?";
-        String[] selectionArgs = {lastRecordName};
+        String[] selectionArgs = {localRecordName};
 
         int count = db.update(FeedReaderContract.FeedReaderEntry.TABLE_NAME, values, selection, selectionArgs);
-        lastRecordName = localRecordName;
+
     }
 
     public void onDeleteFromDatabase(View view) {
@@ -67,14 +64,13 @@ public class SavingDatabaseActivity extends AppCompatActivity {
         SQLiteDatabase db = feedReaderDbHelper.getWritableDatabase();
 
         String selection = FeedReaderContract.FeedReaderEntry.COLUMN_NAME_NAME + " LIKE ?";
-        String[] selectionArgs = {lastRecordName};
+        String[] selectionArgs = {localRecordName};
 
         int count = db.delete(FeedReaderContract.FeedReaderEntry.TABLE_NAME, selection, selectionArgs);
     }
 
     public void onDisplay(View view) {
         Intent intent = new Intent(this, DatabaseDisplayActivity.class);
-        intent.putExtra(NAME, lastRecordName);
         startActivity(intent);
     }
 }
