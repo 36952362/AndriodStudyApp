@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sending_user_to_another_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jupiter.myfirstandriodapp.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_dialing_phone"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onDialPhone"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_view_a_map"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onViewMap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_view_a_web"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onViewWeb" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_an_email"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:onClick="onSendEmail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_create_a_calendar_event"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onCreateCalendarEvent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chooser_apps"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onChooseApps"/>
+</LinearLayout>

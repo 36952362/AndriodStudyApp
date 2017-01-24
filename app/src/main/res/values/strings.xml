@@ -21,4 +21,14 @@
     <string name="button_add_record">Add</string>
     <string name="button_update_record">Update</string>
     <string name="button_delete_record">Delete</string>
+    <string name="button_interacting_with_other_apps">Interacting With Other Apps</string>
+    <string name="button_sending_user_to_another_app">Sending User To Another App</string>
+    <string name="button_dialing_phone">Dial Phone</string>
+    <string name="button_view_a_map">View A Map</string>
+    <string name="button_view_a_web">View A Web</string>
+    <string name="button_send_an_email">Send An Email</string>
+    <string name="button_create_a_calendar_event">Create Calendar Event</string>
+    <string name="button_chooser_apps">Choose Apps</string>
+    <string name="button_get_result_from_other_app">Getting Result From Other App</string>
+    <string name="button_get_one_contact">Get One Contact</string>
 </resources>

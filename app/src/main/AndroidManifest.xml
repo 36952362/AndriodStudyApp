@@ -29,7 +29,18 @@
         <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
         <activity android:name=".savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
         <activity android:name=".savingdata.savingdatabases.SavingDatabaseActivity" />
-        <activity android:name=".savingdata.savingdatabases.DatabaseDisplayActivity"></activity>
+        <activity android:name=".savingdata.savingdatabases.DatabaseDisplayActivity" />
+        <activity android:name=".interactingwithotherapps.InteractingWithOtherAppsActivity" />
+        <activity android:name=".interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
+        <activity android:name=".interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
+        <activity android:name=".allowotherappstartthisactivity.AllowOtherAppStartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jupiter.myfirstandriodapp.fragmentdemo.FragmentDemoActivity;
+import com.jupiter.myfirstandriodapp.interactingwithotherapps.InteractingWithOtherAppsActivity;
 import com.jupiter.myfirstandriodapp.launchanotheractivity.LaunchAnotherActivity;
 import com.jupiter.myfirstandriodapp.savingdata.SavingDataDemoActivity;
 
@@ -29,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onSavingDataDemo(View view) {
         Intent intent = new Intent(this, SavingDataDemoActivity.class);
+        startActivity(intent);
+    }
+
+    public void onInteractingWithOtherApps(View view) {
+        Intent intent = new Intent(this, InteractingWithOtherAppsActivity.class);
         startActivity(intent);
     }
 }
