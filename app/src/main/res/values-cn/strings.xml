@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">我的第一个安卓程序</string>
+    <string name="app_name">安卓学习程序</string>
     <string name="edit_message">输入消息</string>
     <string name="button_send">发送</string>
     <string name="button_start_another_activity_demo">启动Activity演示</string>
