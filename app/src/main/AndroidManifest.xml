@@ -14,30 +14,30 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.jupiter.AndriodStudyApp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".launchanotheractivity.DisplayMessageActivity" />
-        <activity android:name=".launchanotheractivity.LaunchAnotherActivity" />
-        <activity android:name=".fragmentdemo.FragmentDemoActivity" />
-        <activity android:name=".savingdata.SavingDataDemoActivity" />
-        <activity android:name=".savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
-        <activity android:name=".savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
-        <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
-        <activity android:name=".savingdata.savingfiles.SavingFileActivity" />
-        <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
-        <activity android:name=".savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
-        <activity android:name=".savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
-        <activity android:name=".savingdata.savingdatabases.SavingDatabaseActivity" />
-        <activity android:name=".savingdata.savingdatabases.DatabaseDisplayActivity" />
-        <activity android:name=".interactingwithotherapps.InteractingWithOtherAppsActivity" />
-        <activity android:name=".interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
-        <activity android:name=".interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
-        <activity android:name=".allowotherappstartthisactivity.AllowOtherAppStartActivity">
+        <activity android:name="com.jupiter.AndriodStudyApp.launchanotheractivity.DisplayMessageActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.launchanotheractivity.LaunchAnotherActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.fragmentdemo.FragmentDemoActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.SavingDataDemoActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingfiles.SavingFileActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingdatabases.SavingDatabaseActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.savingdata.savingdatabases.DatabaseDisplayActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.interactingwithotherapps.InteractingWithOtherAppsActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
+        <activity android:name="com.jupiter.AndriodStudyApp.allowotherappstartthisactivity.AllowOtherAppStartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
