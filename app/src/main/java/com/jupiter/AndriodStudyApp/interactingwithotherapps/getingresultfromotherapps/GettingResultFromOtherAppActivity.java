@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.interactingwithotherapps.getingresultfromotherapps;
+package com.jupiter.andriodstudyapp.interactingwithotherapps.getingresultfromotherapps;
 
 import android.Manifest;
 import android.content.Intent;
@@ -13,9 +13,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
-
-import org.w3c.dom.Text;
+import com.jupiter.androidstudyapp.R;
 
 public class GettingResultFromOtherAppActivity extends AppCompatActivity {
     private static final int PICK_CONTACT_REQUEST_CODE = 1;

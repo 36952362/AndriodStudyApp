@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.launchanotheractivity;
+package com.jupiter.andriodstudyapp.launchanotheractivity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class LaunchAnotherActivity extends AppCompatActivity {
-    public final static String EXTRA_EDIT_MESSAGE = "com.jupiter.myfirstandriodapp.launchanotheractivity.EDIT_MESSAGE";
+    public final static String EXTRA_EDIT_MESSAGE = "com.jupiter.androidstudyapp.launchanotheractivity.EDIT_MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

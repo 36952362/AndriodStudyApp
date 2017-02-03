@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage;
+package com.jupiter.andriodstudyapp.savingdata.savingfiles.internalstorage;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

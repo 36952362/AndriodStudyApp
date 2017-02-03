@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.savingdata.keyvaluesets;
+package com.jupiter.andriodstudyapp.savingdata.keyvaluesets;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,11 +8,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class SavingKeyValueSetsActivity extends AppCompatActivity {
-    public static final String preference_file_key = "com.jupiter.myfirstandriodapp.savingdata.preference.file.key";
-    public static final String InputValue = "com.jupiter.myfirstandriodapp.savingdata.InputValue";
+    public static final String preference_file_key = "com.jupiter.androidstudyapp.savingdata.preference.file.key";
+    public static final String InputValue = "com.jupiter.androidstudyapp.savingdata.InputValue";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

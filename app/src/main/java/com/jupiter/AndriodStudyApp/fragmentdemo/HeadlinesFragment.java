@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.fragmentdemo;
+package com.jupiter.andriodstudyapp.fragmentdemo;
 
 import android.app.Activity;
 import android.os.Build;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class HeadlinesFragment extends ListFragment {
     OnHeadlinesSelectedListener mCallback;

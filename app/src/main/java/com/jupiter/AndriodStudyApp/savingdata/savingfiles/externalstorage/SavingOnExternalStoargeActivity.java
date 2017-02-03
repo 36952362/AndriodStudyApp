@@ -1,11 +1,11 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingfiles.externalstorage;
+package com.jupiter.andriodstudyapp.savingdata.savingfiles.externalstorage;
 
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 import java.io.File;
 

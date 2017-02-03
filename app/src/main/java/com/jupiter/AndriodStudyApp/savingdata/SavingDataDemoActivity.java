@@ -1,14 +1,14 @@
-package com.jupiter.AndriodStudyApp.savingdata;
+package com.jupiter.andriodstudyapp.savingdata;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jupiter.myfirstandriodapp.R;
-import com.jupiter.AndriodStudyApp.savingdata.keyvaluesets.SavingKeyValueSetsActivity;
-import com.jupiter.AndriodStudyApp.savingdata.savingdatabases.SavingDatabaseActivity;
-import com.jupiter.AndriodStudyApp.savingdata.savingfiles.SavingFileActivity;
+import com.jupiter.androidstudyapp.R;
+import com.jupiter.andriodstudyapp.savingdata.keyvaluesets.SavingKeyValueSetsActivity;
+import com.jupiter.andriodstudyapp.savingdata.savingdatabases.SavingDatabaseActivity;
+import com.jupiter.andriodstudyapp.savingdata.savingfiles.SavingFileActivity;
 
 public class SavingDataDemoActivity extends AppCompatActivity {
 

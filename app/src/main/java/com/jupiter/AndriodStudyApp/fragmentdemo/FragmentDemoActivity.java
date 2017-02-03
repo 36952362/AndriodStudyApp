@@ -1,10 +1,10 @@
-package com.jupiter.AndriodStudyApp.fragmentdemo;
+package com.jupiter.andriodstudyapp.fragmentdemo;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class FragmentDemoActivity extends FragmentActivity implements HeadlinesFragment.OnHeadlinesSelectedListener {
 

@@ -4,7 +4,7 @@
     android:id="@+id/activity_saving_database"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jupiter.myfirstandriodapp.com.jupiter.AndriodStudyApp.savingdata.savingdatabases.SavingDatabaseActivity">
+    tools:context="com.jupiter.androidstudyapp.com.jupiter.AndriodStudyApp.savingdata.savingdatabases.SavingDatabaseActivity">
 
     <View
         android:id="@+id/view_first_center_holder"

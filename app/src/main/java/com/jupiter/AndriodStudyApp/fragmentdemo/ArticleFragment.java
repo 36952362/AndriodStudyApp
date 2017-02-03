@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.fragmentdemo;
+package com.jupiter.andriodstudyapp.fragmentdemo;
 
 
 import android.os.Bundle;
@@ -8,14 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class ArticleFragment extends Fragment {
-    public final static String ARG_POSITION = "com.jupiter.myfirstandriodapp.fragmentdemo.position";
+    public final static String ARG_POSITION = "com.jupiter.androidstudyapp.fragmentdemo.position";
     int mCurrentPosition = -1;
 
     @Override

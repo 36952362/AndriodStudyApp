@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.jupiter.myfirstandriodapp.com.jupiter.AndriodStudyApp.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity">
+    tools:context="com.jupiter.androidstudyapp.com.jupiter.AndriodStudyApp.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity">
 
     <Button
         android:layout_width="match_parent"

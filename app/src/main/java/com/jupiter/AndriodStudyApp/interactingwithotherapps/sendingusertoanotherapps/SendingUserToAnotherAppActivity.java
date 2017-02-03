@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.interactingwithotherapps.sendingusertoanotherapps;
+package com.jupiter.andriodstudyapp.interactingwithotherapps.sendingusertoanotherapps;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 import java.util.Calendar;
 import java.util.List;

@@ -1,11 +1,11 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage;
+package com.jupiter.andriodstudyapp.savingdata.savingfiles.internalstorage;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 import java.io.FileInputStream;
 

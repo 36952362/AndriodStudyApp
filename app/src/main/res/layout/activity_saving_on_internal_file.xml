@@ -8,6 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.jupiter.myfirstandriodapp.com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity">
+    tools:context="com.jupiter.androidstudyapp.com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity">
 
 </RelativeLayout>

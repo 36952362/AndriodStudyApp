@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingdatabases;
+package com.jupiter.andriodstudyapp.savingdata.savingdatabases;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class DatabaseDisplayActivity extends AppCompatActivity {
     private  FeedReaderDbHelper feedReaderDbHelper = new FeedReaderDbHelper(this);

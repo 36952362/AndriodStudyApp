@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.launchanotheractivity;
+package com.jupiter.andriodstudyapp.launchanotheractivity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 

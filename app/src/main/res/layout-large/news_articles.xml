@@ -3,14 +3,14 @@
     android:orientation="horizontal" android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <fragment android:name="com.jupiter.AndriodStudyApp.fragmentdemo.HeadlinesFragment"
+    <fragment android:name="com.jupiter.andriodstudyapp.fragmentdemo.HeadlinesFragment"
         android:layout_width="0dp"
         android:layout_weight="1"
         android:layout_height="match_parent"
         android:id="@+id/headlines_fragment">
     </fragment>
 
-    <fragment android:name="com.jupiter.AndriodStudyApp.fragmentdemo.ArticleFragment"
+    <fragment android:name="com.jupiter.andriodstudyapp.fragmentdemo.ArticleFragment"
         android:layout_width="0dp"
         android:layout_weight="2"
         android:layout_height="match_parent"

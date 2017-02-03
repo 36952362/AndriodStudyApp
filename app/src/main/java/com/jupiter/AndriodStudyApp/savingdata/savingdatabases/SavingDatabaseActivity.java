@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingdatabases;
+package com.jupiter.andriodstudyapp.savingdata.savingdatabases;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class SavingDatabaseActivity extends AppCompatActivity {
-    public final static String NAME = "com.jupiter.myfirstandriodapp.savingdata.savingdatabases.NAME";
+    public final static String NAME = "com.jupiter.androidstudyapp.savingdata.savingdatabases.NAME";
     private FeedReaderDbHelper feedReaderDbHelper = new FeedReaderDbHelper(this);
 
     @Override

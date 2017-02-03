@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingdatabases;
+package com.jupiter.andriodstudyapp.savingdata.savingdatabases;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

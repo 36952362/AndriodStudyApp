@@ -1,13 +1,13 @@
-package com.jupiter.AndriodStudyApp.interactingwithotherapps;
+package com.jupiter.andriodstudyapp.interactingwithotherapps;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jupiter.myfirstandriodapp.R;
-import com.jupiter.AndriodStudyApp.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity;
-import com.jupiter.AndriodStudyApp.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity;
+import com.jupiter.androidstudyapp.R;
+import com.jupiter.andriodstudyapp.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity;
+import com.jupiter.andriodstudyapp.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity;
 
 public class InteractingWithOtherAppsActivity extends AppCompatActivity {
 

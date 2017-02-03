@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.savingdata.keyvaluesets;
+package com.jupiter.andriodstudyapp.savingdata.keyvaluesets;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class SavingKeyValueSetsDisplayActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.allowotherappstartthisactivity;
+package com.jupiter.andriodstudyapp.allowotherappstartthisactivity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.androidstudyapp.R;
 
 public class AllowOtherAppStartActivity extends AppCompatActivity {
 

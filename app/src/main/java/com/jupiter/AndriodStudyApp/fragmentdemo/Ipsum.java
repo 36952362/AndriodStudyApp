@@ -1,4 +1,4 @@
-package com.jupiter.AndriodStudyApp.fragmentdemo;
+package com.jupiter.andriodstudyapp.fragmentdemo;
 
 /**
  * Created by haijutan on 10/01/2017.

@@ -1,15 +1,15 @@
-package com.jupiter.AndriodStudyApp;
+package com.jupiter.andriodstudyapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jupiter.AndriodStudyApp.fragmentdemo.FragmentDemoActivity;
-import com.jupiter.AndriodStudyApp.interactingwithotherapps.InteractingWithOtherAppsActivity;
-import com.jupiter.AndriodStudyApp.launchanotheractivity.LaunchAnotherActivity;
-import com.jupiter.AndriodStudyApp.savingdata.SavingDataDemoActivity;
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.andriodstudyapp.fragmentdemo.FragmentDemoActivity;
+import com.jupiter.andriodstudyapp.interactingwithotherapps.InteractingWithOtherAppsActivity;
+import com.jupiter.andriodstudyapp.launchanotheractivity.LaunchAnotherActivity;
+import com.jupiter.andriodstudyapp.savingdata.SavingDataDemoActivity;
+import com.jupiter.androidstudyapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

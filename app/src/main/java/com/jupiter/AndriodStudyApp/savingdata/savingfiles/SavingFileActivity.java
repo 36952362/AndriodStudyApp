@@ -1,13 +1,13 @@
-package com.jupiter.AndriodStudyApp.savingdata.savingfiles;
+package com.jupiter.andriodstudyapp.savingdata.savingfiles;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jupiter.AndriodStudyApp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity;
-import com.jupiter.AndriodStudyApp.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity;
-import com.jupiter.myfirstandriodapp.R;
+import com.jupiter.andriodstudyapp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity;
+import com.jupiter.andriodstudyapp.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity;
+import com.jupiter.androidstudyapp.R;
 
 public class SavingFileActivity extends AppCompatActivity {
 

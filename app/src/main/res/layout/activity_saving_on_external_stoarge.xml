@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.jupiter.myfirstandriodapp.com.jupiter.AndriodStudyApp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity">
+    tools:context="com.jupiter.androidstudyapp.com.jupiter.AndriodStudyApp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity">
 
     <TextView
         android:layout_width="match_parent"
