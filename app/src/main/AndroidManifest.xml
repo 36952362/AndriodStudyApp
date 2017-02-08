@@ -3,10 +3,9 @@
     package="com.jupiter.androidstudyapp">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.SEND_SMS"/>
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
-
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -21,30 +20,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.jupiter.andriodstudyapp.launchanotheractivity.DisplayMessageActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.launchanotheractivity.LaunchAnotherActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.fragmentdemo.FragmentDemoActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.SavingDataDemoActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingfiles.SavingFileActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingdatabases.SavingDatabaseActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.savingdata.savingdatabases.DatabaseDisplayActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.interactingwithotherapps.InteractingWithOtherAppsActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
-        <activity android:name="com.jupiter.andriodstudyapp.allowotherappstartthisactivity.AllowOtherAppStartActivity">
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.launchanotheractivity.DisplayMessageActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.launchanotheractivity.LaunchAnotherActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.fragmentdemo.FragmentDemoActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.SavingDataDemoActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingfiles.SavingFileActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingdatabases.SavingDatabaseActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.savingdata.savingdatabases.DatabaseDisplayActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.interactingwithotherapps.InteractingWithOtherAppsActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.gettingstarted.allowotherappstartthisactivity.AllowOtherAppStartActivity">
             <intent-filter>
-                <action android:name="android.intent.action.SEND"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="text/plain"/>
-                <data android:mimeType="image/*"/>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
+        <activity android:name="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.SharingSimpleDataActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.sendingsimpledatatootherapps.SendingSimpleDataToOtherAppsActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.receivingsimpledatafromotherapps.ReceivingSimpleDataFromOtherAppsActivity" />
+        <activity android:name="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.addinganeasyshareaction.AddingAnEasyShareActionActivity"></activity>
     </application>
 
 </manifest>

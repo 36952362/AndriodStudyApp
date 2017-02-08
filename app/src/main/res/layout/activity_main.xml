@@ -36,5 +36,13 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:onClick="onInteractingWithOtherApps"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sharingsimpledata"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSharingSimpleData"/>
 </LinearLayout>
 

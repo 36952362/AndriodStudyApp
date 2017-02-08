@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sending_simple_data_to_other_apps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.sendingsimpledatatootherapps.SendingSimpleDataToOtherAppsActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_text_content"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSendTextContent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_binary_content"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSendBinaryContent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send_multiple_pieces_of_content"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSendMultipleContent"/>
+</LinearLayout>

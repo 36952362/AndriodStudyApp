@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sharing_simple_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.SharingSimpleDataActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sending_simple_data_to_other_apps"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSendingSimpleDataToOtherApps"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_receiving_simple_data_from_other_apps"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onReceivingSimpleDataFromOtherApps"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_adding_an_easy_share_action"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onAddingAnEasyShareAction"/>
+
+</LinearLayout>

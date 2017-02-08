@@ -31,4 +31,12 @@
     <string name="button_chooser_apps">Choose Apps</string>
     <string name="button_get_result_from_other_app">Getting Result From Other App</string>
     <string name="button_get_one_contact">Get One Contact</string>
+    <string name="button_sharingsimpledata">Sharing Simple Data</string>
+    <string name="button_sending_simple_data_to_other_apps">Sending Data To Other Apps</string>
+    <string name="button_send_text_content">Send Text Content</string>
+    <string name="button_send_binary_content">Send Binary Content</string>
+    <string name="button_send_multiple_pieces_of_content">Send Multiple Content</string>
+    <string name="text_receive_data">Please refer to Getting Result From Other App</string>
+    <string name="button_receiving_simple_data_from_other_apps">Receive Data From Other Apps</string>
+    <string name="button_adding_an_easy_share_action">Adding Share Action</string>
 </resources>
