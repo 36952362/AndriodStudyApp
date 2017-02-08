@@ -8,6 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.jupiter.andriodstudyapp.buildingappswithcontentsharing.sharingsimpledata.addinganeasyshareaction.AddingAnEasyShareActionActivity">
+    tools:context="com.jupiter.androidstudyapp.buildingappswithcontentsharing.sharingsimpledata.addinganeasyshareaction.AddingAnEasyShareActionActivity">
 
 </RelativeLayout>
