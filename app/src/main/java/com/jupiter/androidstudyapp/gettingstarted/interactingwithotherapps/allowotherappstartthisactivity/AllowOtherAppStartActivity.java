@@ -1,4 +1,4 @@
-package com.jupiter.androidstudyapp.gettingstarted.allowotherappstartthisactivity;
+package com.jupiter.androidstudyapp.gettingstarted.interactingwithotherapps.allowotherappstartthisactivity;
 
 import android.app.Activity;
 import android.content.Intent;

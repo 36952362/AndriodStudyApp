@@ -8,5 +8,5 @@
 * [使用Fragment创建动态UI](./doc/CreateDynamicUI.md)
 * [保存数据](./doc/SavingData.md) 
 * [问题解决](./doc/ProblemResolve.md)
-  
+* [与其他App交互](./doc/InteractingWithOtherApps.md)  
 
