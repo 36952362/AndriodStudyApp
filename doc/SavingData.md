@@ -46,7 +46,7 @@ int defaultValue = getResources().getInteger(R.string.saved_high_score_default);
 long highScore = sharedPref.getInt(getString(R.string.saved_high_score), defaultValue);
 ```
 
-<span id="fileSystem"/>
+<h2 id="fileSystem"/>
 ## 文件系统
 **SavingFileActivity.java**  
 文件系统适合存储顺序访问的大量数据，比如图片，网络传输的数据块等。所有Android设备包含2个文件存储区域：内部和外部存储。下面是内部和外部存储性质的总结:  
