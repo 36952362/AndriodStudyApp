@@ -4,11 +4,12 @@ Android一个很重要的功能就是允许用户从一个App跳转到另外一�
 使用Intent.startActivity()可以启动另外一个Activity,进而让用户从一个Activity(界面)跳转到另外一个(本身App或者其他App)的Activity(界面).  
 Intent可以**显式**指定一个Activity(通常是在本身App的各个Activity之间),也可以**隐式**指定一个可处理指定功能的Activities(通常在不同App之间）。  
 
-* [发送数据到其他App](#sendUsersToAnotherApp)
+* [使用StartActivity发送数据到其他App](#sendUsersToAnotherAppWithStartActivity)
+* [使用ShareAction发送数据到其他App](#sendUsersToAnotherAppWithShareAction)
 * [从其他App获取返回值](#getResultFromAnotherApp)
 * [允许其他App调用](#allowOtherAppInvoke)
 
-<h2 id="sendUsersToAnotherApp">发送数据到其他App</h2>
+<h2 id="sendUsersToAnotherAppWithStartActivity">发送数据到其他App</h2>
 **SendingUserToAnotherAppActivity.java**
 ### 创建隐式Intent
 ****
@@ -88,6 +89,7 @@ if (intent.resolveActivity(getPackageManager()) != null) {
 }
 ```
 
+<h2 id="sendUsersToAnotherAppWithShareAction">使用ShareAction发送数据到其他App</h2>
 <h2 id="getResultFromAnotherApp">从其他App获取返回值</h2>
 **GettingResultFromOtherAppActivity.java**
 

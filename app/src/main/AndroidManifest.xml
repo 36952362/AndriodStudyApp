@@ -20,22 +20,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gettingstarted.interactingwithotherapps.launchanotheractivity.DisplayMessageActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.launchanotheractivity.LaunchAnotherActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.fragmentdemo.FragmentDemoActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.SavingDataDemoActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingfiles.SavingFileActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingdatabases.SavingDatabaseActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.savingdatabases.DatabaseDisplayActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.interactingwithotherapps.InteractingWithOtherAppsActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
+        <activity android:name=".gettingstarted.launchanotheractivity.DisplayMessageActivity" />
+        <activity android:name=".gettingstarted.launchanotheractivity.LaunchAnotherActivity" />
+        <activity android:name=".gettingstarted.fragmentdemo.FragmentDemoActivity" />
+        <activity android:name=".gettingstarted.savingdata.SavingDataDemoActivity" />
+        <activity android:name=".gettingstarted.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
+        <activity android:name=".gettingstarted.savingdata.keyvaluesets.SavingKeyValueSetsDisplayActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingfiles.internalstorage.SavingOnInternalStorageActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingfiles.SavingFileActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingfiles.internalstorage.SavingOnInternalFileActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingfiles.internalstorage.SavingOnCacheFileActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingfiles.externalstorage.SavingOnExternalStoargeActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingdatabases.SavingDatabaseActivity" />
+        <activity android:name=".gettingstarted.savingdata.savingdatabases.DatabaseDisplayActivity" />
+        <activity android:name=".gettingstarted.interactingwithotherapps.InteractingWithOtherAppsActivity" />
+        <activity android:name=".gettingstarted.interactingwithotherapps.sendingusertoanotherapps.SendingUserToAnotherAppActivity" />
+        <activity android:name=".gettingstarted.interactingwithotherapps.getingresultfromotherapps.GettingResultFromOtherAppActivity" />
         <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.AllowOtherAppStartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
