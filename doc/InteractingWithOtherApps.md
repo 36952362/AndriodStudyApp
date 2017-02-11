@@ -90,6 +90,73 @@ if (intent.resolveActivity(getPackageManager()) != null) {
 ```
 
 <h2 id="sendUsersToAnotherAppWithShareAction">使用ShareAction发送数据到其他App</h2>
+**AddingAnEasyShareActionActivity.java**
+### 添加菜单资源文件
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_share_text"
+        android:showAsAction="ifRoom"
+        android:title="Share Text"
+        android:icon="@mipmap/ic_launcher"
+        android:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+    <item android:id="@+id/menu_item_share_picture"
+        android:showAsAction="ifRoom"
+        android:title="Share Picture"
+        android:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+</menu>
+```
+
+### 设置分享Intent
+
+```
+@Override
+public boolean onCreateOptionsMenu(Menu menu){
+    // Inflate menu resource file.
+    getMenuInflater().inflate(R.menu.sharemenu, menu);
+
+    // Locate MenuItem with ShareActionProvider
+    MenuItem item = menu.findItem(R.id.menu_item_share_text);
+    shareActionProvider = new ShareActionProvider(this);
+
+    return super.onCreateOptionsMenu(menu);
+}
+```
+### 菜单项选中的处理
+
+```
+@Override
+public boolean onOptionsItemSelected(MenuItem menuItem){
+    int id = menuItem.getItemId();
+    if(id == R.id.menu_item_share_text){
+        MenuItemCompat.setActionProvider(menuItem, shareActionProvider);
+        doShareText();
+    }
+    else if(id == R.id.menu_item_share_picture){
+        MenuItemCompat.setActionProvider(menuItem, shareActionProvider);
+        doSharePicture();
+    }
+    return super.onOptionsItemSelected(menuItem);
+}
+
+private void doShareText(){
+    Intent intent = new Intent(Intent.ACTION_SEND);
+    intent.setType("text/plain");
+    intent.putExtra(Intent.EXTRA_TEXT, "This is a message for you");
+    setShareIntent(intent);
+}
+
+private  void doSharePicture(){
+    Intent intent = new Intent(Intent.ACTION_SEND);
+    intent.setType("image/*");
+    intent.putExtra(Intent.EXTRA_STREAM, Uri.parse("http://img0.imgtn.bdimg.com/it/u=1021712778,722195730&fm=23&gp=0.jpg"));
+    setShareIntent(intent);
+}
+```
+
 <h2 id="getResultFromAnotherApp">从其他App获取返回值</h2>
 **GettingResultFromOtherAppActivity.java**
 
