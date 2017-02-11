@@ -1,4 +1,5 @@
-<h2 id="checkSystemVerionInruntime">运行时检查系统版本</h2>
+<span id="checkSystemVerionInruntime"/>
+#运行时检查系统版本
 Android使用Build类中的常量为每个版本提供一个唯一的值
 
 ```
