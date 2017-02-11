@@ -3,15 +3,13 @@
 * [英文字母全大写](#textAllCaps)
 * [ShareActionProvider Is Null](#shareActionProviderIsNull)
 
-<span id="textAllCaps"/>
-## 英文字母全大写
+<h2 id="textAllCaps">英文字母全大写</h2>
 ### 问题:   
 在Andrio Studio中Button上面的英文字母不管输入的是否是大小写，显示的时候默认都变成了大写  
 <h4>解决方案:</h4>   
 在Button的属性里加上andriod:textAllCaps="fase"
 
-<span id="shareActionProviderIsNull"/>
-## ShareActionProvider Is Null
+<h2 id="shareActionProviderIsNull">ShareActionProvider Is Null</h2>
 ### 问题 
 根据goolge官方的培训材料[Adding an Easy Share Action](https://developer.android.com/training/sharing/shareaction.html)写的测试代码:  
 **菜单配置文件:** 
