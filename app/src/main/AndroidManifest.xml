@@ -20,8 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.launchanotheractivity.DisplayMessageActivity" />
-        <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.launchanotheractivity.LaunchAnotherActivity" />
+        <activity android:name=".gettingstarted.interactingwithotherapps.launchanotheractivity.DisplayMessageActivity" />
+        <activity android:name=".gettingstarted.interactingwithotherapps.launchanotheractivity.LaunchAnotherActivity" />
         <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.fragmentdemo.FragmentDemoActivity" />
         <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.SavingDataDemoActivity" />
         <activity android:name=".gettingstarted.interactingwithotherapps.allowotherappstartthisactivity.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
