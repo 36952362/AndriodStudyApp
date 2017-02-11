@@ -1,4 +1,3 @@
-<span id="savingData"/>
 # 保存数据
 **SavingDataDemoActivity.java**  
 Andrio有3种方式保存数据:[键值对集合](#keyValueSet),[文件系统](#fileSystem), [数据库系统](#databaseSystem)

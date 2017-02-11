@@ -1,4 +1,3 @@
-<span id="problemResolve"/>
 # 问题解决
 * [英文字母全大写](#textAllCaps)
 * [ShareActionProvider Is Null](#shareActionProviderIsNull)

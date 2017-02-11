@@ -3,10 +3,10 @@
 
 **目录:**
 
-* [启动另一个Activity](./doc/StartAnotherActivity.md#startAnotherActivity)
-* [运行时检查系统版本](./doc/SystemVersionCheck.md#checkSystemVerionInruntime)
-* [使用Fragment创建动态UI](./doc/CreateDynamicUI.md#createDynamicUI)
-* [保存数据](./doc/SavingData.md#savingData) 
-* [问题解决](./doc/ProblemResolve.md#problemResolve)
+* [启动另一个Activity](./doc/StartAnotherActivity.md)
+* [运行时检查系统版本](./doc/SystemVersionCheck.md)
+* [使用Fragment创建动态UI](./doc/CreateDynamicUI.md)
+* [保存数据](./doc/SavingData.md) 
+* [问题解决](./doc/ProblemResolve.md)
   
 

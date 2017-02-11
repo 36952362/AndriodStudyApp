@@ -1,4 +1,3 @@
-<span id="createDynamicUI"/>
 #使用Fragment创建动态UI
 **FragmentDemoActivity.java**
 

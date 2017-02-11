@@ -1,4 +1,3 @@
-<span id="startAnotherActivity"/>
 #启动另一个Activity
 **LaunchAnotherActivity.java**
 ## 构建一个Intent
