@@ -3,8 +3,7 @@
 **SavingDataDemoActivity.java**  
 Andrio有3种方式保存数据:[键值对集合](#keyValueSet),[文件系统](#fileSystem), [数据库系统](#databaseSystem)
 
-<h id="keyValueSet"/>
-## 键值对集合
+<h2 id="keyValueSet">键值对集合</h2>
 
 **SavingKeyValueSetsActivity.java**  
 如果有相对较小的键值对数据需要保存，并且不需要跟其他的App程序共享，那么可以使用SharedPreferences APIs, 一个SharedPreferences对象指向一个包含键值对数据的问题，并且提供简单的读写方法。 
@@ -46,8 +45,7 @@ int defaultValue = getResources().getInteger(R.string.saved_high_score_default);
 long highScore = sharedPref.getInt(getString(R.string.saved_high_score), defaultValue);
 ```
 
-<h id="fileSystem"/>
-## 文件系统
+<h2 id="fileSystem">文件系统</h2>
 **SavingFileActivity.java**  
 文件系统适合存储顺序访问的大量数据，比如图片，网络传输的数据块等。所有Android设备包含2个文件存储区域：内部和外部存储。下面是内部和外部存储性质的总结:  
 **内部存储**:  
@@ -177,8 +175,7 @@ myFile.delete();
 myContext.deleteFile(fileName);
 ```
 
-<h id="databaseSystem"/>
-## 数据库系统
+<h2 id="databaseSystem">数据库系统</h2>
 **SavingDatabaseActivity.java**  
 数据库系统适合存储有结构化的数据。
 
