@@ -4,7 +4,7 @@
 目录:
 
 * [启动另一个Activity](#startAnotherActivity)
-* [运行时检查系统版本](#checkSystemVerionInruntime)
+* [运行时检查系统版本](./doc/SystemVersionCheck.md#checkSystemVerionInruntime)
 * [使用Fragment创建动态UI](#createDynamicUI)
 * [保存数据](#savingData)  
   1. [键值对集合](#keyValueSet)  
@@ -33,19 +33,6 @@ putExtra() 方法将需要的值添加到 Intent。Intent 能够以名为 extra 
 ****
 startActivity() 方法将启动 Intent 指定的 DisplayMessageActivity 实例。
 `startActivity(intent);`
-
-<h2 id="checkSystemVerionInruntime">运行时检查系统版本</h2>
-Android使用Build类中的常量为每个版本提供一个唯一的值
-
-```
-private void setUpActionBar() {
-    // Make sure we're running on Honeycomb or higher to use ActionBar APIs
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-        ActionBar actionBar = getActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
-    }
-}
-```
 
 <h2 id="createDynamicUI">使用Fragment创建动态UI</h2>
 **FragmentDemoActivity.java**
