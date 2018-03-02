@@ -5,11 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jupiter.androidstudyapp.buildingappswithcontentsharing.ContentSharingActivity;
 import com.jupiter.androidstudyapp.gettingstarted.fragmentdemo.FragmentDemoActivity;
 import com.jupiter.androidstudyapp.gettingstarted.interactingwithotherapps.InteractingWithOtherAppsActivity;
 import com.jupiter.androidstudyapp.gettingstarted.launchanotheractivity.LaunchAnotherActivity;
 import com.jupiter.androidstudyapp.gettingstarted.savingdata.SavingDataDemoActivity;
-import com.jupiter.androidstudyapp.buildingappswithcontentsharing.sharingsimpledata.SharingSimpleDataActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onSharingSimpleData(View view) {
-        Intent intent = new Intent(this, SharingSimpleDataActivity.class);
+    public void onContentSharing(View view) {
+        Intent intent = new Intent(this, ContentSharingActivity.class);
         startActivity(intent);
     }
 }

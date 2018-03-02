@@ -39,4 +39,9 @@
     <string name="text_receive_data">Please refer to Getting Result From Other App</string>
     <string name="button_receiving_simple_data_from_other_apps">Receive Data From Other Apps</string>
     <string name="button_adding_an_easy_share_action">Adding Share Action</string>
+    <string name="button_content_sharing">Content Sharing</string>
+    <string name="button_sharing_files">Sharing Files</string>
+    <string name="button_sharing_a_file">Sharing A File</string>
+    <string name="button_request_a_file">Request A File</string>
+    <string name="text_file_description">File Description</string>
 </resources>

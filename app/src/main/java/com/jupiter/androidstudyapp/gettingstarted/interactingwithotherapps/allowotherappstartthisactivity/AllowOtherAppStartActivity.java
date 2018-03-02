@@ -24,7 +24,7 @@ public class AllowOtherAppStartActivity extends AppCompatActivity {
         }
 
         // Create intent to deliver some kind of result data
-        Intent result = new Intent("com.example.RESULT_ACTION", Uri.parse("content://result_uri"));
+        Intent result = new Intent("com.jupiter.androidstudyapp.RESULT_ACTION", Uri.parse("content://result_uri"));
         setResult(Activity.RESULT_OK, result);
         finish();
     }

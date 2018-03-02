@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_content_sharing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jupiter.androidstudyapp.buildingappswithcontentsharing.ContentSharingActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sharingsimpledata"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSharingSimpleData"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sharing_files"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:onClick="onSharingFiles"/>
+
+</LinearLayout>

@@ -13,6 +13,16 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.jupiter.androidstudyapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".gettingstarted.launchanotheractivity.DisplayMessageActivity" />
-        <activity android:name=".gettingstarted.launchanotheractivity.LaunchAnotherActivity" />
+        <activity android:name=".gettingstarted.launchanotheractivity.DisplayMessageActivity"
+            android:parentActivityName=".gettingstarted.launchanotheractivity.LaunchAnotherActivity"/>
+        <activity android:name=".gettingstarted.launchanotheractivity.LaunchAnotherActivity"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".gettingstarted.fragmentdemo.FragmentDemoActivity" />
         <activity android:name=".gettingstarted.savingdata.SavingDataDemoActivity" />
         <activity android:name=".gettingstarted.savingdata.keyvaluesets.SavingKeyValueSetsActivity" />
@@ -49,7 +61,21 @@
         <activity android:name=".buildingappswithcontentsharing.sharingsimpledata.SharingSimpleDataActivity" />
         <activity android:name=".buildingappswithcontentsharing.sharingsimpledata.sendingsimpledatatootherapps.SendingSimpleDataToOtherAppsActivity" />
         <activity android:name=".buildingappswithcontentsharing.sharingsimpledata.receivingsimpledatafromotherapps.ReceivingSimpleDataFromOtherAppsActivity" />
-        <activity android:name=".buildingappswithcontentsharing.sharingsimpledata.addinganeasyshareaction.AddingAnEasyShareActionActivity"></activity>
+        <activity android:name=".buildingappswithcontentsharing.sharingsimpledata.addinganeasyshareaction.AddingAnEasyShareActionActivity" />
+        <activity android:name=".buildingappswithcontentsharing.sharingfiles.FileSharingActivity" />
+        <activity android:name=".buildingappswithcontentsharing.ContentSharingActivity" />
+        <activity android:name=".buildingappswithcontentsharing.sharingfiles.sharingafile.SharingAFileActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".buildingappswithcontentsharing.sharingfiles.requestafile.RequestAFileActivity"></activity>
     </application>
 
 </manifest>
